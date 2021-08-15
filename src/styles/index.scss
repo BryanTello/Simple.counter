@@ -1,13 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+#app{
+    display: flex;
+    background-image: url("../img/plant.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.counter_numbers{
+    display: flex;
+    margin-top: 12rem;
+    display: flex;
+	min-width:1.125em;
+	letter-spacing: .25em;
+	text-indent: .25em;
+}
+.counter_numbers div{
+    font-size: 60px;
+    color:#edebeb;
+	background-color:#333232;
+    width: 4rem;
+    height: 6rem;
+    border-radius:.125em;
+    margin-left:.0800em;
+	margin-right:.0800em;
+    box-shadow:0 .125em .3125em rgba(0, 0, 0, .25), 0 .02125em .06125em rgba(0, 0, 0, .25);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
